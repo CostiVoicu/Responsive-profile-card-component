@@ -1,0 +1,126 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+:root{
+    --clr-primary-dark_cyan: hsl(185, 75%, 39%);
+    --clr-primary-dark_blue: hsl(229, 23%, 23%);
+    --clr-primary-grayish_blue: hsl(227, 10%, 46%);
+    --clr-nutral-dark_grey: hsl(0, 0%, 59%);
+    --clr-border: hsla(0, 0%, 59%, 0.363);
+
+    --ff: 'Kumbh Sans';
+}
+
+body{
+    font-family: var(--ff);
+    font-size: 18px;
+    background-color: var(--clr-primary-dark_cyan);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+h1{
+    color: var(--clr-primary-dark_blue);
+    font-weight: 700;
+}
+
+p{
+    color: var(--clr-primary-grayish_blue);
+    font-weight: 400;
+}
+
+.org_info > p{
+    color:var(--clr-nutral-dark_grey);
+    font-size: 13px;
+    padding-top: 0.5em;
+}
+
+section{
+    position: relative;
+    background-color: white;
+    width: 340px;
+    height: 390px;
+    border-radius: 4%;
+    overflow: hidden;
+}
+
+.card{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.card > img{
+    width: 100%;
+    height: 145px;
+}
+
+.account_img{
+    position: absolute;
+    display: flex;
+    top: 90px;
+    right: 120px;
+    justify-content: center;
+    align-items: center;
+    width: 105px;
+    height: 105px;
+    background-color: white;
+}
+
+.account_img, .account_img > img{
+    border-radius: 50%;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.info > h1{
+    padding-right: 0.5em;
+    font-size: 18px;
+}
+
+.location{
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account_info{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 0 8px 0;
+    border-top: solid 1px;
+    border-top-color: var(--clr-border);
+}
+
+.org_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1em 0 1em;
+}
+
+.org_info > h1{
+    margin-bottom: -10px;
+    font-size: 18px;
+}
+
+.org_info > p{
+    font-weight: 1px;
+}
