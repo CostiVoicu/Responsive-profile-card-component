@@ -22,6 +22,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Screenshot
 
 ![screenshot](./screenshot/Profile card component.png)
+![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
 ### Links
 
