@@ -11,10 +11,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -24,7 +21,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./screenshot/Profile card component.png)
+![](./screenshot/Profile card component .png)
 
 ### Links
 
@@ -32,7 +29,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## My process
 
-### Buid with
+### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
